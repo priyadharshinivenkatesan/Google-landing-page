@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin-top: 0px;
+}
+
+ul{
+ display: flex;
+ float: right;
+}
+
+li{
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.profile-picture{
+  border-radius: 20px;
+  position: relative;
+  bottom:5px;
+}
+
+.grid{
+  width: 20px;
+}
+
+.google-img{
+  width: 344px;
+    margin: auto;
+    position: relative;
+    top: 128px;
+    left: 490px;
+    align-items: center;
+
+}
+
+.search-box{
+  width: 572px;
+  border-color: grey;
+  border:1px solid grey;
+  height: 42px;
+  position: relative;
+  top: 129px; 
+  left: 47px;
+  border-radius: 29px;
+  background-image: url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_960_720.png'), 
+  url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM6EWCfjfYNIt6AAgJ74iNpujFI470i92gYJ7dH2ed7rU5b6TvvgKjCht8Bw27O21BNCM&usqp=CAU'),
+  url('https://cdn1.iconfinder.com/data/icons/google-s-logo/150/Google_Icons-06-512.png');
+  background-repeat: no-repeat;
+  background-size: 20px, 30px, 30px;
+  background-position: 5px, 497px, 528px;
+}
+
+button{
+  background-color: #f8f9fa;
+    border-radius: 4px;
+    width: 122px;
+    height: 41px;
+    border:none
+}
+
+button:hover{
+  background-color: #dfe5ec;
+  cursor: pointer;
+
+}
+
+p{
+  position: relative;
+  top: -4px;
+  left: -86px;
+  font-size: 12px;
+}
+
+p a{
+  color:blue;
+  padding: 4px;
+  padding-right: 10px;
+}
+
+.section-1{
+  position: absolute;
+  top: 366px; 
+  left: 532px;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #dadce0;
+  color: #70757a;
+  padding-top: 10px;
+
+}
+
+#google-footer {
+  padding-bottom: 10px;
+}
+
+#google-footer a{
+  color: grey;
+  padding-left: 20px;
+}
